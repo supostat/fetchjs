@@ -20,7 +20,6 @@ export function fetch(target) {
 
   return new Proxy(target, {
     get(target, prop) {
-      console.log(prop);
       if (propertiesChain === "") {
         propertiesChain += prop;
       } else {
