@@ -15,5 +15,8 @@
   "homepage": "https://github.com/supostat/fetchjs#readme",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {
+    "@supostat:registry": "https://npm.pkg.github.com"
   }
 }
