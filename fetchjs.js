@@ -5,7 +5,7 @@ const isObject = (obj) => {
 let originalTarget;
 let propertiesChain = "";
 
-export function oFetch(target) {
+export function fetch(target) {
   if (!originalTarget) {
     originalTarget = target;
   }
@@ -28,7 +28,7 @@ export function oFetch(target) {
       }
       if (prop in target) {
         if (isObject(target[prop])) {
-          return oFetch(target[prop]);
+          return fetch(target[prop]);
         }
         propertiesChain = "";
         return target[prop];
