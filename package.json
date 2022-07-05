@@ -1,6 +1,6 @@
 {
   "name": "@supostat/fetchjs",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "src/fetchjs.js",
   "repository": {
     "type": "git",
