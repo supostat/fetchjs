@@ -1,0 +1,8 @@
+{
+  "name": "fetchjs",
+  "version": "1.0.0",
+  "main": "src/fetchjs.js",
+  "repository": "git@github.com:supostat/fetchjs.git",
+  "author": "Igor Pugachev <ipugachev84@gmail.com>",
+  "license": "MIT"
+}
